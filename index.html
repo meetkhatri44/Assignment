@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <title>Insane Travels</title>
+
+</head>
+	<body>
+         <!-- Navbar goes here -->
+    <nav class="bg-white lg:border-b-2 h-16 -mt-1 fixed w-screen">
+      <div class="mx-auto px-4 py-2 mb-10">
+        <div class="flex justify-around">
+          <div class="flex space-x-7">
+            <div>
+              <!-- Website Logo -->
+              <a href="" class="flex title-font font-medium items-center text-gray-900 mt-3 md:mb-0">
+                <img class="h-8" src="Images/insane.png">
+              </a>
+            </div>
+            <!-- Primary Navbar items -->
+            <div class="hidden lg:flex items-center space-x-3">
+              <a class="py-4 px-2 text-base text-black no-underline font-semibold flex space-x-2">Areas
+                                <div  class="submenu w-80 hidden mt-10 leading-10 text-left bg-white fixed text-sm font-sans tracking-wider -ml-6">
+                                    <ul class="shadow-xl space-y-2">
+                                      <ul class="leading-6 pl-4 hover:bg-gray-100">
+                                           <li>Home</li>
+                                           <li class="text-black">projects</li>
+                                      </ul>
+                                      <ul class="leading-6 pl-4 hover:bg-gray-100">
+                                          <li>Template gallery</li>
+                                          <li class="text-black">Setups to get you started</li>
+                                     </ul>                         
+                                     <ul class="leading-6 pl-4">
+                                      <li>Customer Stories</li>
+                                      <li class="text-black">See how teams use equips</li>
+                                     </ul> 
+                                      <ul class="pl-5 pr-5">
+                                            <li><button class="border-2 text-center font-semibold w-full rounded-md hover:bg-gray-100">Download brochure</button></li>
+                                      </ul>
+                                      <ul>
+                                          <li class="text-black pl-5">Mac,Windows,iOS & Android</li>
+                                      </ul>                   
+                                    </ul>
+                                  </div>
+                                  <div class="">
+                                    <img class="h-3 mt-2" src="https://img.icons8.com/ios-glyphs/30/000000/chevron-down.png"/>
+                                  </div>
+                            </a>
+              <a href="" class="py-4 flex px-2 text-base font-semibold text-black no-underline space-x-2">Design Ideas
+                                <div  class="submenu w-60 bg-white hidden  mt-10 pt-5 text-left fixed text-black text-sm font-sans tracking-wider -ml-6">
+                                    <ul class="shadow-xl -mt-5">
+                                     <li class="h-8 pl-4 hover:bg-gray-100">iOS & Android</li>
+                                     <li class="h-8 pl-4 hover:bg-gray-100">Mac & Windows</li>
+                                     <li class="h-8 pl-4 hover:bg-gray-100">Web Clipper</li>
+                                    </ul>
+                                   </div>
+                                   <div class="">
+                                    <img class="h-3 mt-2" src="https://img.icons8.com/ios-glyphs/30/000000/chevron-down.png"/>
+                                  </div>
+                            </a>
+                            <a href="" class="py-4 px-2 flex space-x-2 text-black text-base no-underline font-semibold">About Us
+                                <div class="submenu shadow-xl hidden border-2 mt-10 rounded-md border-gray-500 leading-10 text-left space-y-2 bg-white fixed text-lg font-sans tracking-wider -ml-6">
+                                    <div class="flex">
+                                       <div class="border-r-2 w-80">
+                                           <p class="text-xs text-black tracking-widest pl-10 pt-1">BY TEAM SIZE</p>
+                                        <ul class="space-y-1 text-sm">
+                                           <ul class="leading-6 pl-4 flex space-x-1 hover:bg-gray-100">
+                                               <ul><img class="h-10 pt-1" src="Images/solutions/team-size-enterprise.png"></ul>
+                                               <ul>  
+                                                 <li>Enterprise</li>
+                                                 <li class="text-black">Advanced features for your org</li>
+                                               </ul>  
+                                           </ul>
+                                           <ul class="leading-6 pl-4 flex space-x-1">
+                                            <ul><img class="h-10 pt-1" src="Images/solutions/team-size-small-business.png"></ul>
+                                            <ul>  
+                                              <li>Small Business</li>
+                                              <li class="text-black">Run your team on one tool</li>
+                                            </ul>  
+                                           </ul>                         
+                                           <ul class="leading-6 pl-4 flex space-x-1">
+                                            <ul><img class="h-10 pt-1" src="Images/solutions/team-size-personal.png"></ul>
+                                            <ul>  
+                                              <li>Personal</li>
+                                              <li class="text-black">Free for individuals</li>
+                                           </ul>  
+                                          </ul>
+                                        </ul>
+                                       </div> 
+                                       <div class="border-r-2 w-56">
+                                           <p class="text-black pl-5 pt-2 text-xs">BY TEAM FUNCTION</p>
+                                           <ul class="list-none pl-5 pt-5 text-sm space-y-3">
+                                               <li>Design</li>
+                                               <li>Engineering</li>
+                                               <li>Products</li>
+                                               <li>Managers</li>
+                                           </ul>
+                                       </div> 
+                                       <div class="w-56">
+                                        <p class="text-black pl-5 pt-2 text-xs"> FOR employees</p>
+                                        <ul class="list-none pl-5 pt-5 text-sm space-y-3">
+                                            <li>Startups</li>
+                                            <li>Remote Work</li>
+                                            <li>Education</li>
+                                            <li>Nonprofits</li>
+                                        </ul>
+                                    </div> 
+                                    </div>     
+                                    </div>
+                                    <div class="">
+                                        <img class="h-3 mt-2" src="https://img.icons8.com/ios-glyphs/30/000000/chevron-down.png"/>
+                                      </div>
+                            </a>
+              <a href="" class="py-4 px-2 flex space-x-2 text-base text-black no-underline font-semibold">Videos
+                                <div  class="submenu w-60 hidden mt-10 text-left bg-white fixed text-sm font-sans tracking-wider -ml-6">
+                                    <ul class="shadow-xl font-semibold">
+                                     <li class="h-8 pl-4 hover:bg-gray-100">Blog</li>
+                                     <li class="h-8 pl-4 hover:bg-gray-100">Guides & Tutorials</li>
+                                     <li class="h-8 pl-4 hover:bg-gray-100">Webinars</li>
+                                     <li class="h-8 pl-4 hover:bg-gray-100">Help Center</li>
+                                     <li class="h-8 pl-4 hover:bg-gray-100">API Docs
+                                         <button class="w-12 tracking-widest text-xs h-5 text-center bg-gray-200 rounded-md">BETA</button>
+                                     </li>
+                                    </ul>
+                                   </div>
+                                   <div class="">
+                                    <img class="h-3 mt-2" src="https://img.icons8.com/ios-glyphs/30/000000/chevron-down.png"/>
+                                  </div>
+                            </a>
+                            <a href="" class="py-4 px-2 text-base text-black no-underline font-semibold">Portfolio</a>
+                            <a href="" class="py-4 px-2 text-base text-black no-underline font-semibold">Pricing</a>
+  
+            </div>
+          </div>
+          <!-- Secondary Navbar items -->
+          <div class="lg:flex items-center lg:space-x-3">
+            <a href="" class="lg:py-2 lg:visible invisible lg:px-2 lg:text-base font-medium no-underline text-black rounded hover:bg-gray-300 hover:text-black">Contact Sales</a>
+                        <a class="text-gray-200 text-3xl lg:visible invisible">|</a>
+            <a href="" class="lg:py-2 lg:px-2 lg:text-base lg:visible invisible font-medium no-underline text-black rounded hover:bg-gray-300 hover:text-black">Log In</a>
+            <a href="" class="lg:py-2 flex lg:px-2 lg:text-base text-xs h-9 lg:h-10 items-center pl-5 pb-1 -mt-8 lg:mt-0 ml-8 lg:ml-0 rounded-md lg:rounded-lg w-32 lg:w-36 font-medium no-underline text-white notion-button">Try tour Free</a>
+          </div>
+          <!-- Mobile menu button -->
+          <div class="lg:hidden flex">
+            <button class="outline-none mobile-menu-button">
+            <svg class=" w-6 h-6 text-black "
+              x-show="!showMenu"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+          </div>
+        </div>
+      </div>
+      <!-- mobile menu -->
+            <div class="lg:hidden mobile-menu border shadow-xl fixed hidden -mt-9">
+                <ul class="bg-white w-screen">
+                  <li class="border-b ml-5 mr-5">
+                    <a href="#" class="block text-base px-2 py-4 text-black font-bold">Areas
+                    <div  class="submenu w-full -ml-2 hidden pt-2 leading-10 text-left space-y-2 bg-white text-black fixed text-sm font-sans tracking-wider">
+                      <ul class="shadow-xl space-y-2">
+                        <ul class="leading-6 pl-4 hover:bg-gray-100">
+                             <li>Home</li>
+                             <li class="text-black">projects</li>
+                        </ul>
+                        <ul class="leading-6 pl-4 hover:bg-gray-100">
+                            <li>Template gallery</li>
+                            <li class="text-black">Setups to get you started</li>
+                       </ul>                         
+                       <ul class="leading-6 pl-4">
+                        <li>Customer Stories</li>
+                        <li class="text-black">See how teams use equips</li>
+                       </ul> 
+                        <ul class="pl-5 pr-5">
+                              <li><button class="border-2 text-center font-semibold w-full rounded-md hover:bg-gray-100">Download brochure</button></li>
+                        </ul>
+                        <ul>
+                            <li class="text-black pl-5">Mac,Windows,iOS & Android</li>
+                        </ul>                   
+                      </ul>
+                       </div>
+                </a>
+              </li>
+                  <li class="border-b ml-5 mr-5"><a href="#" class="block text-base px-2 py-4 text-black font-bold"> Ideas
+                                <div  class="submenu w-full -ml-2 hidden  pt-2 leading-10 text-left space-y-2 bg-white text-black fixed text-sm font-sans tracking-wider">
+                                    <ul class="shadow-xl">
+                                     <li class="h-12 pl-4 ">iOS & Android</li>
+                                     <li class="h-12 pl-4 ">Mac & Windows</li>
+                                     <li class="h-12 pl-4 ">Web Clipper</li>
+                                    </ul>
+                                   </div>
+                            </a></li>
+                  <li class="border-b ml-5 mr-5">
+                    <a href="#" class="block text-base px-2 py-4 text-black font-bold">About Us
+                    <div  class="submenu w-full -ml-2 hidden  pt-2 leading-10 text-left space-y-2 bg-white text-black fixed text-sm font-sans tracking-wider">
+                      <div class="grid">
+                                       <div class=" w-96">
+                                           <p class="text-md text-black tracking-widest">BY TEAM SIZE</p>
+                                        <ul class="space-y-3">
+                                           <ul class="leading-6  flex space-x-3">
+                                               <ul><img class="h-12 pt-1" src="Images/solutions/team-size-enterprise.png"></ul>
+                                               <ul>  
+                                                 <li>Enterprise</li>
+                                                 <li class="text-black">Advanced features for your org</li>
+                                               </ul>  
+                                           </ul>
+                                           <ul class="leading-6 flex space-x-3">
+                                            <ul><img class="h-12 pt-1" src="Images/solutions/team-size-small-business.png"></ul>
+                                            <ul>  
+                                              <li>Small Business</li>
+                                              <li class="text-black">Run your team on one tool</li>
+                                            </ul>  
+                                           </ul>                         
+                                           <ul class="leading-6 flex space-x-3">
+                                            <ul><img class="h-12 pt-1" src="Images/solutions/team-size-personal.png"></ul>
+                                            <ul>  
+                                              <li>Personal</li>
+                                              <li class="text-black">Free for individuals</li>
+                                           </ul>  
+                                          </ul>
+                                        </ul>
+                                       </div> 
+                                       <div class=" w-56">
+                                           <p class="text-black pl-5">BY TEAM FUNCTION</p>
+                                           <ul class="list-none pl-5">
+                                               <li>Design</li>
+                                               <li>Engineering</li>
+                                               <li>Products</li>
+                                               <li>Managers</li>
+                                           </ul>
+                                       </div> 
+                                       <div class="w-56">
+                                        <p class="text-black pl-5"> FOR employees</p>
+                                        <ul class="list-none pl-5">
+                                            <li>Startups</li>
+                                            <li>Remote Work</li>
+                                            <li>Education</li>
+                                            <li>Nonprofits</li>
+                                        </ul>
+                                    </div> 
+                      </div>     
+                    </div>
+                    </a>
+                  </li>
+                  <li class="border-b ml-5 mr-5">
+                    <a href="#" class="block text-base px-2 py-4 text-black font-bold">Video
+                    <div  class="submenu w-full -ml-2 hidden  pt-2 leading-10 text-left space-y-2 bg-white text-black fixed text-sm font-sans tracking-wider">
+                                <ul class="shadow-xl">
+                                   <li class="h-12 pl-4 ">iOS & Android</li>
+                                   <li class="h-12 pl-4 ">Mac & Windows</li>
+                                   <li class="h-12 pl-4 ">Web Clipper</li>
+                                  </ul>
+                    </div>
+                    </a>
+                  </li>
+                            <li class="border-b ml-5 mr-5"><a href="" class="block text-base px-2 py-4 text-black font-bold">Pricing</a></li>
+                            <li class="border-b ml-5 mr-5"><a href="" class="block text-base px-2 py-4 text-black font-bold">Portfolio</a></li>
+                            <a href="" class="lg:py-2 flex lg:px-2 lg:text-base text-base h-10 lg:h-10 items-center pl-28 pb-1 ml-12 lg:ml-0 rounded-md lg:rounded-lg w-80 text-center font-medium no-underline text-white notion-button">Try virtual tour Free</a>
+                            <a href="" class="lg:py-2 flex lg:px-2 lg:text-base text-base h-10 lg:h-10 items-center pl-32 pb-1 mt-3 ml-12 lg:ml-0 rounded-md lg:rounded-lg w-80 text-center font-medium no-underline bg-red-100 border-2 border-red-400 text-red-500 notion-button">Log in</a>
+                </ul>
+            </div>
+             
+      <script>
+        const btn = document.querySelector("button.mobile-menu-button");
+        const menu = document.querySelector(".mobile-menu");
+  
+        btn.addEventListener("click", () => {
+          menu.classList.toggle("hidden");
+        });
+      </script>
+    </nav>
+        <section class="lg:flex grid lg:mb-24">
+            <div class="md:mt-44 m-5 md:m-0 mt-20 md:ml-44 lg:ml-16">
+                <img class="lg:h-96 rounded-lg sm:h-72" src="Images/home.webp">
+            </div>
+            <div class="lg:ml-24 lg:mt-44 text-center lg:text-left">
+                <span class="lg:text-7xl text-3xl font-bold text-gray-900 space-y-1">
+                    <p>One workspace.</p>
+                    <p>Every tour.</p>
+                </span>
+                <span class="text-gray-500 tracking-wider lg:text-xl space-y-5">
+                    <p id="demo" class="lg:w-8/12 md:w-5/12 w-11/12 md:ml-60 ml-5 mt-10 lg:ml-0 lg:leading-8">We’re more than a doc. Or a table. Customize tour to work the way you do.</p>
+                    <button class="notion-button text-white text-lg w-44 h-10 rounded-md">Try Virtual Tour free</button>
+                </span><br /><br />
+                <span>
+                    <p class="text-gray-500 tracking-wider lg:text-xs font-semibold">TRUSTED BY TEAMS AT</p>
+                </span><br />
+                <span class="lg:flex lg:justify-start space-y-3 lg:space-y-0 space-x-2">
+                    <span class="flex space-x-2 ml-12 sm:ml-16 md:ml-64 lg:ml-0">
+                        <img class="h-4" src="Images/LOGO/pixar-logo.png">
+                        <img class="h-5" src="Images/LOGO/travelperk-logo.png">
+                        <img class="h-5" src="Images/LOGO/cornershop-logo.png">
+                    </span>
+                    <span class="flex space-x-2 pl-28 sm:pl-32 md:pl-80 lg:pl-0">
+                        <img class="h-5" src="Images/LOGO/spotify-logo-v2.png">
+                        <img class="h-5" src="Images/LOGO/headspace-logo.png">
+                    </span>
+                </span>
+            </div>
+        </section>
+        <section class="lg:flex mt-10 md:mt-0 space-y-3 md:-space-y-8 lg:space-y-0 lg:mb-28 mb-5">
+            <div class="lg:ml-44 ml-5 md:mt-24 lg:mt-32">
+              <span>
+                <img class="md:h-16 h-12" src="Images/page-2/spot-team-up.png">
+              </span> 
+              <span class="space-y-3">
+                  <p class="text-gray-900 lg:text-3xl md:text-2xl text-xl font-bold mt-3 w-10/12 md:w-11/12">Team up without the chaos</p>
+                  <p class="text-gray-500 lg:text-xl md:text-lg text-sm w-8/12 lg:w-11/12 tracking-wide">Connect your teams, projects, and docs in tour — so you can bust silos and move as one.</p>
+              </span>
+            </div>
+            <div>
+                <img class="mb-10 lg:mb-0 lg:w-11/12 w-8/12 shadow-xl lg:float-right mt-5 lg:mt-24 lg:mr-14 md:ml-24 rounded-lg ml-10 lg:ml-0" src="Images/1.jpg">
+            </div>
+        </section>
+        <section class="lg:flex mt-10 md:mt-0 space-y-3 md:-space-y-8 lg:space-y-0 lg:mb-28 mb-5">
+            <div class="lg:ml-44 ml-5 md:mt-24 lg:mt-32">
+              <span>
+                <img class="md:h-16 h-12" src="Images/page-2/spot-team-up.png">
+              </span> 
+              <span class="space-y-3">
+                  <p class="text-gray-900 lg:text-3xl md:text-2xl text-xl font-bold mt-3 md:w-11/12">Team up without the chaos</p>
+                  <p class="text-gray-500 lg:text-xl md:text-lg text-sm w-8/12 lg:w-11/12 tracking-wide">Connect your teams, projects, and docs in tour — so you can bust silos and move as one.</p>
+              </span>
+            </div>
+            <div>
+                <img class="mb-10 lg:mb-0 lg:w-11/12 w-8/12 shadow-xl lg:float-right mt-5 lg:mt-32 lg:mr-20 md:ml-24 rounded-lg ml-10 lg:ml-0" src="Images/2.jpg">
+            </div>
+        </section>
+        <section class="lg:flex mt-10 md:mt-0 space-y-3 md:-space-y-8 lg:space-y-0 lg:mb-28 mb-5">
+            <div class="lg:ml-44 ml-5 md:mt-24 lg:mt-32">
+              <span>
+                <img class="md:h-16 h-12" src="Images/page-2/spot-team-up.png">
+              </span> 
+              <span class="space-y-3">
+                  <p class="text-gray-900 lg:text-3xl md:text-2xl text-xl font-bold mt-3 md:w-11/12">Build the workflow you want</p>
+                  <p class="text-gray-500 lg:text-xl md:text-lg text-sm w-8/12 lg:w-11/12 tracking-wide">Connect your teams, projects, and docs in tour — so you can bust silos and move as one.</p>
+              </span>
+            </div>
+            <div>
+                <img class="mb-10 lg:mb-0 lg:w-11/12 w-8/12 shadow-xl lg:float-right mt-5 lg:mt-24 lg:mr-20 md:ml-24 rounded-lg ml-10 lg:ml-0" src="Images/3.jpg">
+            </div>
+        </section>
+        <section class="lg:flex mt-10 md:mt-0 space-y-3 md:-space-y-8 lg:space-y-0 mb-5 lg:py-24 border-b-2 lg:ml-40 lg:mr-40">
+            <div class=" ml-5 md:mt-24 lg:mt-32">
+              <span>
+                <img class="md:h-16 h-12" src="Images/page-2/spot-team-up.png">
+              </span> 
+              <span class="space-y-3">
+                  <p class="text-gray-900 lg:text-3xl md:text-2xl text-xl font-bold mt-3 md:w-full">Team up without the chaos</p>
+                  <p class="text-gray-500 lg:text-xl md:text-lg text-sm w-8/12 lg:w-11/12 tracking-wide">Connect your teams, projects, and docs in tour — so you can bust silos and move as one.</p>
+              </span>
+            </div>
+            <div>
+                <img class="mb-10 lg:mb-0 lg:w-11/12 w-8/12 shadow-xl lg:float-right mt-5 lg:mt-32 lg:mr-20 md:ml-24 rounded-lg ml-10 lg:ml-0" src="Images/4.jpg">
+            </div>
+        </section>
+        <section class="border-b-2 pb-10 lg:pb-80 lg:ml-40 lg:mr-40">
+          <div class="">
+            <div>
+                <img class="lg:h-36 h-16 lg:float-right lg:mt-10 lg:mr-40 sm:ml-80 ml-36 lg:ml-0" src="Images/page-5/1.png">
+            </div>
+            <div class="lg:ml-5 lg:mt-10 text-center lg:text-left">
+                <span class="lg:text-4xl text-xl font-bold text-gray-900 space-y-1">
+                    <p>Built for endless uses.</p>
+                    <p>Accross all teams.</p>
+                </span>
+                <span class="text-gray-500 tracking-wider lg:text-lg space-y-5">
+                    <p class="lg:w-4/12 md:w-5/12 w-11/12 md:ml-60 ml-5 lg:ml-0 lg:leading-8 mt-5">tour solves problems common and unique to every team. These are just a few.</p>
+                    <button class="notion-button text-white text-base w-44 h-10 rounded-md">Try tour free</button>
+                </span>
+            </div>
+          </div>
+          <div class="">
+            <div>
+                <img class="mb-10 lg:mb-0 w-8/12  shadow-xl lg:float-right mt-5 lg:-mt-10 lg:mr-40 md:ml-24 ml-16 lg:ml-0" src="Images/page-5/2.png">
+            </div>
+            <div class="lg:ml-5 lg:mt-24 text-center lg:text-left">
+                <ul class="text-left flex lg:grid md:-space-x-5 lg:space-x-0">
+                    <li class="cursor-pointer hover:bg-gray-100 text-center lg:text-lg md:text-base text-xs font-medium rounded-lg text-gray-700 w-40 h-8">Company home</li>
+                    <li class="cursor-pointer hover:bg-gray-100 text-center lg:text-lg md:text-base text-xs font-medium rounded-lg text-gray-700 w-28 h-8">Roadmap</li>
+                    <li class="cursor-pointer hover:bg-gray-100 text-center lg:text-lg md:text-base text-xs font-medium rounded-lg text-gray-700 w-32 h-8">Design docs</li>
+                    <li class="cursor-pointer hover:bg-gray-100 text-center lg:text-lg md:text-base text-xs font-medium rounded-lg text-gray-700 w-40 h-8">Engineering wiki</li>
+                    <li class="cursor-pointer hover:bg-gray-100 text-center lg:text-lg md:text-base text-xs font-medium rounded-lg text-gray-700 w-36 h-8">Meeting notes</li>
+                    <li class="cursor-pointer hover:bg-gray-100 text-center lg:text-lg md:text-base text-xs font-medium rounded-lg text-gray-700 w-44 h-8">Website publishing</li>
+                </ul>
+            </div>
+          </div>
+        </section>
+        <section class="border-b-2 lg:ml-40 lg:mr-40 lg:pb-20">
+            <div>
+                <div>
+                    <img class="lg:h-28 h-20 lg:float-right lg:mt-20 mt-10 sm:ml-80 ml-24 lg:ml-0" src="Images/page-6/2.png">
+                </div>
+                <div class=" lg:mt-10 lg:text-left">
+                    <span class="lg:text-4xl text-center text-lg font-bold text-gray-900 lg:space-y-1">
+                        <p>Start with a template.</p>
+                        <p>Modify it however you need.</p>
+                    </span>
+                    <span class="text-gray-500 tracking-wider lg:text-lg text-sm space-y-5">
+                        <p class="lg:w-4/12 md:w-5/12 w-11/12 md:ml-60 ml-5 lg:ml-0 lg:leading-8 mt-5">Choose from thousands of free, pre-built setups- for work and life.</p>
+                        <button class="bg-white border-2 ml-32 hover:bg-gray-100 md:text-base md:w-44 w-36 h-10 rounded-md">See all templates</button>
+                    </span>
+                </div> 
+              </div><br />
+              <div class="md:flex lg:justify-center lg:space-x-10 lg:mt-10 ml-8 md:ml-0">
+                  <span class="space-y-3">
+                      <img class="md:w-96 w-80 rounded-lg border-t-2 shadow-xl" src="Images/page-6/company home.png">
+                      <p class="font-medium text-xs md:text-lg hover:underline">Company home</p>
+                  </span>
+                  <span class="space-y-3">
+                    <img class="md:w-96 w-80 rounded-lg border-t-2 shadow-xl" src="Images/page-6/roadmap.png">
+                    <p class="font-medium text-xs md:text-lg hover:underline">Roadmap</p>
+                </span>
+                <span class="space-y-3">
+                    <img class="md:w-96 w-80 rounded-lg border-t-2 shadow-xl" src="Images/page-6/meeting notes.png">
+                    <p class="font-medium text-xs md:text-lg hover:underline">Meeting notes</p>
+                </span>
+              </div>
+        </section>
+    <section class="border-b-2 lg:ml-40 lg:mr-40 lg:pb-20">
+        <section>
+            <div>
+                <div>
+                    <img class="lg:h-56 h-40 lg:float-right lg:-mt-10 mt-10 sm:ml-80 ml-16 lg:ml-0" src="Images/page-7/1.png">
+                </div>
+                <div class=" lg:mt-32 text-center lg:text-left">
+                    <span class="lg:text-4xl text-lg font-bold text-gray-900 lg:space-y-1">
+                        <p>Used by the world's most</p>
+                        <p>innovative teams</p>
+                    </span><br />
+                    <span class="text-gray-500 tracking-wider lg:text-lg text-sm space-y-5">
+                        <button class="bg-white border-2 hover:bg-gray-100 md:text-base md:w-44 w-36 h-10 rounded-md">See all templates</button>
+                    </span>
+                </div> 
+              </div><br /> 
+        </section>
+        <section class="mb-10">
+          <div class="lg:flex mt-20 space-y-10 lg:space-y-0">
+            <div class="ml-10 space-y-3">
+                <img class="h-5" src="Images/page-7/matchgroup.png">
+                <p class="font-medium text-lg w-10/12 lg:w-full tracking-wide leading-6 text-gray-800">"Tour is a workspace that adapts to your needs. It’s as minimal or as powerful as you need it to be."</p>
+                <span class="flex">
+                    <span><img class="h-12" src="Images/page-7/rahim.png"></span>
+                    <span class="-space-y-1">
+                        <p>Rahim Makani</p>
+                        <p class="text-gray-400">Director of Product</p>
+                    </span>
+                </span>
+            </div>
+            <div class="lg:ml-36 ml-10 space-y-3">
+                <img class="h-7" src="Images/page-7/loom.png">
+                <p class="font-medium text-lg lg:w-11/12 w-10/12 tracking-wide leading-6 text-gray-800">"tour continues to be the easiest way to get information centralized somewhere and shout it out to someone else. For us, that’s extremely important because half our team is remote."</p>
+                <span class="flex">
+                    <span><img class="h-12" src="Images/page-7/vinay.png"></span>
+                    <span class="-space-y-1">
+                        <p>Vinay Hiremath</p>
+                        <p class="text-gray-400">Co-founder and Head of Engineering</p>
+                    </span>
+                </span>
+            </div>
+            <div class="ml-10 space-y-3">
+                <img class="h-7" src="Images/page-7/figma.png">
+                <p class="font-medium text-lg lg:w-full w-10/12  tracking-wide leading-6 text-gray-800">"tour ease of use is one of its hallmarks. It helps you visually navigate content and remember where something is."</p>
+                <span class="flex">
+                    <span><img class="h-12" src="Images/page-7/marie.png"></span>
+                    <span class="-space-y-1">
+                        <p>Marie Szuts</p>
+                        <p class="text-gray-400">Director of Product</p>
+                    </span>
+                </span>
+            </div>
+         </div>  
+        </section>      
+    </section>
+    <section class="border-b-2 lg:ml-48 lg:mr-48">
+        <div class="lg:mt-20 mt-5">
+            <span class="text-center space-y-2">
+                <img class="h-20 lg:ml-64 lg:pl-44 md:ml-96 sm:ml-36 ml-28" src="Images/insane.png">
+                <p class="lg:text-4xl ml-5 lg:-ml-10 text-2xl font-bold tracking-wide text-gray-900">Try tour today</p>
+                <p class="text-gray-500 ml-5 lg:-ml-10 lg:text-xl text-base">Get Started for free.</p>
+                <p class="text-gray-500 ml-5 lg:-ml-10 lg:text-xl text-base">Add your whole team as your needs grow.</p><br />
+              <span class="lg:ml-96 lg:pl-16 sm:ml-44 ml-32">
+                <button class="notion-button text-white lg:text-base w-44 h-10 rounded-md">Try tour free</button>
+              </span>  
+                <a class="flex text-gray-500 lg:ml-48 lg:pl-56 md:ml-72 sm:ml-44 ml-28 lg:text-lg">
+                    <p>On a big team?</p>
+                    <p class="underline cursor-pointer hover:no-underline">Contact sales</p>
+                </a>
+            </span>
+            <div class="lg:ml-26 mb-3">
+                <img class="lg:h-72 h-44" src="Images/page-8/sitting-character.png">
+            </div>
+        </div>
+<div class="bg-white px-4 py-3 flex items-center justify-between border-t border-gray-200 sm:px-6">
+  <div class="flex-1 flex justify-between sm:hidden">
+    <a href="#" class="md:relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50"> Previous </a>
+    <a href="#" class="ml-3 md:relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50"> Next </a>
+  </div>
+  <div class="hidden sm:flex-1 sm:flex sm:items-center sm:justify-between">
+    <div>
+      <p class="text-sm text-gray-700">
+        Showing
+        <span class="font-medium">1</span>
+        to
+        <span class="font-medium">10</span>
+        of
+        <span class="font-medium">97</span>
+        results
+      </p>
+    </div>
+    <div>
+      <nav class="relative z-0 inline-flex rounded-md shadow-sm -space-x-px" aria-label="Pagination">
+        <a href="#" class="relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">
+          <span class="sr-only">Previous</span>
+          <!-- Heroicon name: solid/chevron-left -->
+          <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+          </svg>
+        </a>
+        <!-- Current: "z-10 bg-indigo-50 border-indigo-500 text-indigo-600", Default: "bg-white border-gray-300 text-gray-500 hover:bg-gray-50" -->
+        <a href="#" aria-current="page" class="z-10 bg-indigo-50 border-indigo-500 text-indigo-600 relative inline-flex items-center px-4 py-2 border text-sm font-medium"> 1 </a>
+        <a href="#" class="bg-white border-gray-300 text-gray-500 hover:bg-gray-50 relative inline-flex items-center px-4 py-2 border text-sm font-medium"> 2 </a>
+        <a href="#" class="bg-white border-gray-300 text-gray-500 hover:bg-gray-50 hidden md:inline-flex relative items-center px-4 py-2 border text-sm font-medium"> 3 </a>
+        <span class="relative inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700"> ... </span>
+        <a href="#" class="bg-white border-gray-300 text-gray-500 hover:bg-gray-50 hidden md:inline-flex relative items-center px-4 py-2 border text-sm font-medium"> 8 </a>
+        <a href="#" class="bg-white border-gray-300 text-gray-500 hover:bg-gray-50 relative inline-flex items-center px-4 py-2 border text-sm font-medium"> 9 </a>
+        <a href="#" class="bg-white border-gray-300 text-gray-500 hover:bg-gray-50 relative inline-flex items-center px-4 py-2 border text-sm font-medium"> 10 </a>
+        <a href="#" class="relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">
+          <span class="sr-only">Next</span>
+          <!-- Heroicon name: solid/chevron-right -->
+          <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+          </svg>
+        </a>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    </section>
+    <!-- Footer goes here -->
+    <section class="md:flex justify-evenly mt-10 border-b-2 pb-10 footer">
+      <div class="ml-10 md:-ml-10 lg:ml-0">
+        <img class="h-16" src="Images/insane.png">
+      </div>
+      <div class="ml-10 md:-ml-20 lg:-ml-10 mt-10 md:mt-0">
+          <p class="font-semibold lg:text-lg text-base">Product</p>
+          <ul class="text-gray-500 lg:text-base text-sm leading-5">
+              <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Pricing</li>
+              <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Overview</li>
+              <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Customer Stories</li>
+              <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Integrations</li>
+              <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Desktop apps</li>
+              <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Mobile apps</li>
+              <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Web Clipper</li>
+              <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Security</li>
+              <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Terms & Privacy</li>
+          </ul>
+      </div>
+      <div class="float-right md:float-none md:-ml-32 -mt-52 mr-20 lg:mr-10 md:mt-0">
+        <p class="font-semibold lg:text-lg text-base">tour for</p>
+        <ul class="text-gray-500 lg:text-base text-sm leading-5">
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Pricing</li>
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Overview</li>
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Customer Stories</li>
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Integrations</li>
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Desktop apps</li>
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Mobile apps</li>
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Web Clipper</li>
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Security</li>
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Terms & Privacy</li>
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Terms & Privacy</li>
+        </ul>
+    </div>  
+    <div class="mt-10 ml-10 md:mt-0 md:-ml-36">
+        <p class="font-semibold lg:text-lg text-base">Resources</p>
+        <ul class="text-gray-500 lg:text-base text-sm leading-5">
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Pricing</li>
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Overview</li>
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Customer Stories</li>
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Integrations</li>
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Desktop apps</li>
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Mobile apps</li>
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Web Clipper</li>
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Security</li>
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Terms & Privacy</li>
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Terms & Privacy</li>
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Terms & Privacy</li>
+        </ul>
+    </div>  
+    <div class="float-right md:float-none -mt-60 mr-20 lg:mr-10 md:mt-0 md:-ml-32">
+        <p class="font-semibold lg:text-lg text-base">Templates</p>
+        <ul class="text-gray-500 lg:text-base text-sm leading-5">
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Pricing</li>
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Overview</li>
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Customer Stories</li>
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Integrations</li>
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Desktop apps</li>
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Mobile apps</li>
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Web Clipper</li>
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Security</li>
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Terms & Privacy</li>
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Terms & Privacy</li>
+        </ul>
+    </div>  
+    <div class="ml-10 mt-10 lg:-ml-44 md:-ml-32 md:mt-0">
+        <p class="font-semibold lg:text-lg text-base">Company</p>
+        <ul class="text-gray-500 lg:text-base text-sm">
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Pricing</li>
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Overview</li>
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Customer Stories</li>
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Integrations</li>
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Desktop apps</li>
+            <li class="hover:underline hover:text-red-500 cursor cursor-pointer">Mobile apps</li>
+        </ul>
+    </div>    
+    </section>
+    <section class="flex lg:visible invisible lg:-mb-40 flex-wrap mt-10 justify-around">
+        <div class="flex">
+          <span class="flex"> 
+            <a class="mt-1">
+                <svg viewBox="0 0 14 14" style="width:16px;height:16px;display:block;fill:rgba(0,0,0,0.6);flex-shrink:0" class="globe"><path d="M7.12 12.8223C10.4305 12.8223 13.1727 10.0859 13.1727 6.76953C13.1727 3.45898 10.4305 0.716797 7.11414 0.716797C3.80359 0.716797 1.06726 3.45898 1.06726 6.76953C1.06726 10.0859 3.80945 12.8223 7.12 12.8223ZM3.59265 3.08398C4.17859 2.52734 4.88757 2.09961 5.67859 1.86523C5.26257 2.28125 4.91101 2.86719 4.64734 3.58203C4.23718 3.45312 3.88562 3.2832 3.59265 3.08398ZM8.56726 1.87109C9.35242 2.10547 10.0614 2.52734 10.6415 3.08398C10.3544 3.28906 10.0028 3.45312 9.59265 3.58789C9.32898 2.86719 8.97742 2.28125 8.56726 1.87109ZM7.53015 2.05859C8.01648 2.29297 8.46179 2.92578 8.7782 3.78711C8.39148 3.85742 7.97546 3.89844 7.53015 3.91602V2.05859ZM5.46179 3.78711C5.78406 2.92578 6.22351 2.29297 6.70984 2.05859V3.91602C6.26453 3.89844 5.84851 3.85742 5.46179 3.78711ZM2.02234 6.35938C2.10437 5.36328 2.47937 4.44336 3.05359 3.6875C3.41101 3.95117 3.8739 4.17969 4.41296 4.34961C4.26062 4.95898 4.16101 5.63867 4.13171 6.35938H2.02234ZM10.1083 6.35938C10.079 5.63867 9.97937 4.95898 9.82703 4.34961C10.3661 4.17969 10.829 3.95703 11.1805 3.6875C11.7606 4.44336 12.1356 5.36328 12.2177 6.35938H10.1083ZM4.9696 6.35938C4.9989 5.7207 5.08679 5.11133 5.22156 4.56055C5.69031 4.6543 6.18835 4.71289 6.70984 4.73633V6.35938H4.9696ZM7.53015 6.35938V4.73633C8.05164 4.71289 8.54968 4.6543 9.01843 4.56055C9.1532 5.11133 9.24109 5.7207 9.27039 6.35938H7.53015ZM2.02234 7.17969H4.13171C4.16101 7.91211 4.26062 8.59766 4.41296 9.21289C3.87976 9.38281 3.42273 9.60547 3.07117 9.86914C2.48523 9.10742 2.10437 8.18164 2.02234 7.17969ZM4.9696 7.17969H6.70984V8.83203C6.19421 8.85547 5.69031 8.91406 5.22742 9.00195C5.08679 8.44531 4.99304 7.82422 4.9696 7.17969ZM7.53015 8.83203V7.17969H9.27039C9.24695 7.82422 9.1532 8.44531 9.01257 9.00195C8.54968 8.91406 8.05164 8.85547 7.53015 8.83203ZM9.82703 9.21289C9.98523 8.59766 10.079 7.91211 10.1083 7.17969H12.2177C12.1356 8.18164 11.7548 9.10742 11.1688 9.86914C10.8173 9.60547 10.3602 9.38281 9.82703 9.21289ZM7.53015 9.65234C7.9696 9.66992 8.38562 9.71094 8.76648 9.78125C8.45007 10.625 8.01062 11.252 7.53015 11.4805V9.65234ZM5.47351 9.78125C5.85437 9.71094 6.27039 9.66992 6.70984 9.65234V11.4805C6.22937 11.252 5.78992 10.625 5.47351 9.78125ZM3.61023 10.4727C3.89734 10.2734 4.2489 10.1094 4.6532 9.98047C4.91687 10.6836 5.26257 11.2578 5.66687 11.668C4.89343 11.4336 4.19031 11.0176 3.61023 10.4727ZM9.58679 9.98047C9.99109 10.1094 10.3427 10.2734 10.6298 10.4727C10.0497 11.0176 9.34656 11.4336 8.57312 11.668C8.97742 11.2578 9.32312 10.6836 9.58679 9.98047Z" fill="currentColor"></path></svg>
+            </a>
+            <a class="hover:bg-gray-100 w-16 h-7 font-medium text-center md:text-base text-xs">
+                English
+            </a>
+           </span>
+           <span class="flex md:space-x-5 space-x-2">
+               <p class="font-medium md:text-base text-xs">Cookie settings</p>
+               <p class="font-medium md:text-base text-xs">Status</p>
+               <p class="text-black md:text-base text-xs">&copy;2022 Meet Khatri</p>
+           </span>    
+        </div>
+        <div class="flex  lg:mt-0 lg:ml-80 space-x-3 text-gray-500">
+          <svg viewBox="0 0 22 18" style="width:20px;height:16px;display:block;fill:currentColor;flex-shrink:0;margin-top:2px" class="shareTwitter"><path d="m22 2.12799c-.8083.36413-1.6798.60642-2.5899.71441.9321-.56211 1.6455-1.45374 1.9851-2.514271-.8716.51919-1.8393.899931-2.8648 1.103451-.8248-.883314-1.9974-1.43158-3.2951-1.43158-2.4922 0-4.5102 2.03384-4.5102 4.54257 0 .35444.0385.70057.1154 1.03423-3.75002-.19106-7.07532-1.99923-9.30088-4.750248-.38628.670098-.610352 1.453738-.610352 2.284438 0 1.57557.794552 2.96839 2.005622 3.7811-.73956-.02216-1.43514-.22983-2.045487-.56627v.05677c0 2.20275 1.554737 4.04141 3.620847 4.45671-.37803.1039-.77806.1606-1.19046.1606-.29142 0-.57185-.0304-.85091-.0817.57598 1.8041 2.24207 3.1193 4.2147 3.1581-1.54649 1.2198-3.48888 1.9466-5.60585 1.9466-.365658 0-.721694-.0221-1.07773-.065 2.0015 1.2931 4.37278 2.0421 6.92002 2.0421 8.29878 0 12.84068-6.9267 12.84068-12.9327 0-.19937-.0041-.3932-.0124-.58841.8812-.63549 1.6455-1.43712 2.2503-2.34952z"></path></svg>
+          <svg viewBox="0 0 20 18" style="width:20px;height:18px;display:block;fill:currentColor;flex-shrink:0" class="shareLinkedIn"><path clip-rule="evenodd" d="m2.0769 4.15379c1.14644 0 2.07689-.93045 2.07689-2.07689 0-1.14645-.93045-2.0769-2.07689-2.0769-1.14645 0-2.0769.93045-2.0769 2.0769 0 1.14644.93045 2.07689 2.0769 2.07689zm-2.0769 13.84621v-12.46143h4.15379v12.46143zm6.92371-12.46143h3.83119v1.96336h.0554c.533-.95675 1.8373-1.96336 3.7827-1.96336 4.0444 0 4.7921 2.5172 4.7921 5.79173v6.6697h-3.9946v-5.9123c0-1.4095-.0291-3.22471-2.0769-3.22471-2.0796 0-2.3981 1.53551-2.3981 3.12231v6.0147h-3.99179z" fill-rule="evenodd"></path></svg>
+          <svg viewBox="0 0 18 18" style="width:18px;height:18px;display:block;fill:currentColor;flex-shrink:0" class="shareFacebook"><path d="M17.999 8.999c0-4.97-4.029-8.999-8.999-8.999s-8.999 4.029-8.999 8.999c0 4.492 3.291 8.215 7.593 8.89v-6.289h-2.285v-2.601h2.285v-1.983c0-2.255 1.344-3.501 3.399-3.501 0.985 0 2.015 0.176 2.015 0.176v2.215h-1.135c-1.118 0-1.467 0.694-1.467 1.405v1.688h2.496l-0.399 2.601h-2.097v6.289c4.302-0.675 7.593-4.398 7.593-8.89z"></path></svg>
+          <svg viewBox="0 0 18 18" style="width:18px;height:18px;display:block;fill:currentColor;flex-shrink:0" class="shareInstagram"><path fill-rule="evenodd" clip-rule="evenodd" d="M9 1.621c2.405 0 2.689.011 3.635.053.879.039 1.354.186 1.67.309.418.162.721.359 1.034.671.316.316.51.615.675 1.034.123.316.271.795.309 1.67.042.949.053 1.234.053 3.635s-.011 2.689-.053 3.635c-.039.879-.186 1.354-.309 1.67a2.802 2.802 0 01-.671 1.034c-.316.316-.615.51-1.034.675-.316.123-.795.271-1.67.309-.949.042-1.234.053-3.635.053s-2.689-.011-3.635-.053c-.879-.039-1.354-.186-1.67-.309a2.802 2.802 0 01-1.034-.671 2.815 2.815 0 01-.675-1.034c-.123-.316-.271-.795-.309-1.67-.042-.949-.053-1.234-.053-3.635s.011-2.689.053-3.635c.039-.879.186-1.354.309-1.67.162-.418.359-.721.671-1.034.316-.316.615-.51 1.034-.675.316-.123.795-.271 1.67-.309.946-.042 1.23-.053 3.635-.053zM9 0C6.557 0 6.251.011 5.291.053 4.335.095 3.677.25 3.108.471a4.389 4.389 0 00-1.596 1.041A4.404 4.404 0 00.471 3.105C.25 3.678.095 4.332.053 5.288.011 6.251 0 6.557 0 9c0 2.443.011 2.749.053 3.709.042.956.197 1.614.418 2.183a4.389 4.389 0 001.041 1.596 4.392 4.392 0 001.593 1.037c.573.221 1.227.376 2.183.418.96.042 1.266.053 3.709.053s2.749-.011 3.709-.053c.956-.042 1.614-.197 2.183-.418a4.413 4.413 0 001.593-1.037c.5-.499.809-1.002 1.037-1.593.221-.573.376-1.227.418-2.183.042-.96.053-1.266.053-3.709s-.011-2.749-.053-3.709c-.042-.956-.197-1.614-.418-2.183a4.21 4.21 0 00-1.03-1.6A4.392 4.392 0 0014.896.474c-.573-.221-1.227-.376-2.183-.418C11.75.01 11.444 0 9 0zm0 4.377A4.625 4.625 0 004.377 9 4.625 4.625 0 009 13.623 4.625 4.625 0 0013.623 9 4.625 4.625 0 009 4.377zm0 7.622A3 3 0 119 6 3 3 0 019 12zm4.806-6.726a1.079 1.079 0 100-2.158 1.079 1.079 0 000 2.158z"></path></svg>
+          <svg viewBox="0 0 18 18" style="width:18px;height:18px;display:block;fill:currentColor;flex-shrink:0" class="shareYouTube"><path d="M9 2.070c-8.845 0-9 0.787-9 6.93s0.155 6.93 9 6.93 9-0.787 9-6.93-0.155-6.93-9-6.93zM11.884 9.301l-4.041 1.886c-0.354 0.164-0.644-0.020-0.644-0.41v-3.553c0-0.39 0.29-0.574 0.644-0.41l4.041 1.886c0.354 0.166 0.354 0.436 0 0.601z"></path></svg>
+        </div>
+    </section>
+    <section class="visible lg:invisible">
+      <div class="space-y-2 -mt-20 py-5 border-b-2">
+        <span class="flex justify-center space-x-32">
+          <p>Terms & Privacy</p>
+          <p class="">Status</p>
+        </span>
+        <span class="flex justify-center space-x-32">
+          <p>Security</p>
+          <p>Cookie settings</p>
+        </span>
+      </div>
+      <div class="ml-10 flex space-x-16 mt-5">
+        <span class="flex ml-5"> 
+          <a class="mt-1">
+              <svg viewBox="0 0 14 14" style="width:16px;height:16px;display:block;fill:rgba(0,0,0,0.6);flex-shrink:0" class="globe"><path d="M7.12 12.8223C10.4305 12.8223 13.1727 10.0859 13.1727 6.76953C13.1727 3.45898 10.4305 0.716797 7.11414 0.716797C3.80359 0.716797 1.06726 3.45898 1.06726 6.76953C1.06726 10.0859 3.80945 12.8223 7.12 12.8223ZM3.59265 3.08398C4.17859 2.52734 4.88757 2.09961 5.67859 1.86523C5.26257 2.28125 4.91101 2.86719 4.64734 3.58203C4.23718 3.45312 3.88562 3.2832 3.59265 3.08398ZM8.56726 1.87109C9.35242 2.10547 10.0614 2.52734 10.6415 3.08398C10.3544 3.28906 10.0028 3.45312 9.59265 3.58789C9.32898 2.86719 8.97742 2.28125 8.56726 1.87109ZM7.53015 2.05859C8.01648 2.29297 8.46179 2.92578 8.7782 3.78711C8.39148 3.85742 7.97546 3.89844 7.53015 3.91602V2.05859ZM5.46179 3.78711C5.78406 2.92578 6.22351 2.29297 6.70984 2.05859V3.91602C6.26453 3.89844 5.84851 3.85742 5.46179 3.78711ZM2.02234 6.35938C2.10437 5.36328 2.47937 4.44336 3.05359 3.6875C3.41101 3.95117 3.8739 4.17969 4.41296 4.34961C4.26062 4.95898 4.16101 5.63867 4.13171 6.35938H2.02234ZM10.1083 6.35938C10.079 5.63867 9.97937 4.95898 9.82703 4.34961C10.3661 4.17969 10.829 3.95703 11.1805 3.6875C11.7606 4.44336 12.1356 5.36328 12.2177 6.35938H10.1083ZM4.9696 6.35938C4.9989 5.7207 5.08679 5.11133 5.22156 4.56055C5.69031 4.6543 6.18835 4.71289 6.70984 4.73633V6.35938H4.9696ZM7.53015 6.35938V4.73633C8.05164 4.71289 8.54968 4.6543 9.01843 4.56055C9.1532 5.11133 9.24109 5.7207 9.27039 6.35938H7.53015ZM2.02234 7.17969H4.13171C4.16101 7.91211 4.26062 8.59766 4.41296 9.21289C3.87976 9.38281 3.42273 9.60547 3.07117 9.86914C2.48523 9.10742 2.10437 8.18164 2.02234 7.17969ZM4.9696 7.17969H6.70984V8.83203C6.19421 8.85547 5.69031 8.91406 5.22742 9.00195C5.08679 8.44531 4.99304 7.82422 4.9696 7.17969ZM7.53015 8.83203V7.17969H9.27039C9.24695 7.82422 9.1532 8.44531 9.01257 9.00195C8.54968 8.91406 8.05164 8.85547 7.53015 8.83203ZM9.82703 9.21289C9.98523 8.59766 10.079 7.91211 10.1083 7.17969H12.2177C12.1356 8.18164 11.7548 9.10742 11.1688 9.86914C10.8173 9.60547 10.3602 9.38281 9.82703 9.21289ZM7.53015 9.65234C7.9696 9.66992 8.38562 9.71094 8.76648 9.78125C8.45007 10.625 8.01062 11.252 7.53015 11.4805V9.65234ZM5.47351 9.78125C5.85437 9.71094 6.27039 9.66992 6.70984 9.65234V11.4805C6.22937 11.252 5.78992 10.625 5.47351 9.78125ZM3.61023 10.4727C3.89734 10.2734 4.2489 10.1094 4.6532 9.98047C4.91687 10.6836 5.26257 11.2578 5.66687 11.668C4.89343 11.4336 4.19031 11.0176 3.61023 10.4727ZM9.58679 9.98047C9.99109 10.1094 10.3427 10.2734 10.6298 10.4727C10.0497 11.0176 9.34656 11.4336 8.57312 11.668C8.97742 11.2578 9.32312 10.6836 9.58679 9.98047Z" fill="currentColor"></path></svg>
+          </a>
+          <a class="hover:bg-gray-100 w-16 h-7 font-medium text-center text-sm">
+              English
+          </a>
+         </span>
+         <span class="flex space-x-3 ml-10 text-gray-500">
+          <svg viewBox="0 0 22 18" style="width:20px;height:16px;display:block;fill:currentColor;flex-shrink:0;margin-top:2px" class="shareTwitter"><path d="m22 2.12799c-.8083.36413-1.6798.60642-2.5899.71441.9321-.56211 1.6455-1.45374 1.9851-2.514271-.8716.51919-1.8393.899931-2.8648 1.103451-.8248-.883314-1.9974-1.43158-3.2951-1.43158-2.4922 0-4.5102 2.03384-4.5102 4.54257 0 .35444.0385.70057.1154 1.03423-3.75002-.19106-7.07532-1.99923-9.30088-4.750248-.38628.670098-.610352 1.453738-.610352 2.284438 0 1.57557.794552 2.96839 2.005622 3.7811-.73956-.02216-1.43514-.22983-2.045487-.56627v.05677c0 2.20275 1.554737 4.04141 3.620847 4.45671-.37803.1039-.77806.1606-1.19046.1606-.29142 0-.57185-.0304-.85091-.0817.57598 1.8041 2.24207 3.1193 4.2147 3.1581-1.54649 1.2198-3.48888 1.9466-5.60585 1.9466-.365658 0-.721694-.0221-1.07773-.065 2.0015 1.2931 4.37278 2.0421 6.92002 2.0421 8.29878 0 12.84068-6.9267 12.84068-12.9327 0-.19937-.0041-.3932-.0124-.58841.8812-.63549 1.6455-1.43712 2.2503-2.34952z"></path></svg>
+          <svg viewBox="0 0 20 18" style="width:20px;height:18px;display:block;fill:currentColor;flex-shrink:0" class="shareLinkedIn"><path clip-rule="evenodd" d="m2.0769 4.15379c1.14644 0 2.07689-.93045 2.07689-2.07689 0-1.14645-.93045-2.0769-2.07689-2.0769-1.14645 0-2.0769.93045-2.0769 2.0769 0 1.14644.93045 2.07689 2.0769 2.07689zm-2.0769 13.84621v-12.46143h4.15379v12.46143zm6.92371-12.46143h3.83119v1.96336h.0554c.533-.95675 1.8373-1.96336 3.7827-1.96336 4.0444 0 4.7921 2.5172 4.7921 5.79173v6.6697h-3.9946v-5.9123c0-1.4095-.0291-3.22471-2.0769-3.22471-2.0796 0-2.3981 1.53551-2.3981 3.12231v6.0147h-3.99179z" fill-rule="evenodd"></path></svg>
+          <svg viewBox="0 0 18 18" style="width:18px;height:18px;display:block;fill:currentColor;flex-shrink:0" class="shareFacebook"><path d="M17.999 8.999c0-4.97-4.029-8.999-8.999-8.999s-8.999 4.029-8.999 8.999c0 4.492 3.291 8.215 7.593 8.89v-6.289h-2.285v-2.601h2.285v-1.983c0-2.255 1.344-3.501 3.399-3.501 0.985 0 2.015 0.176 2.015 0.176v2.215h-1.135c-1.118 0-1.467 0.694-1.467 1.405v1.688h2.496l-0.399 2.601h-2.097v6.289c4.302-0.675 7.593-4.398 7.593-8.89z"></path></svg>
+          <svg viewBox="0 0 18 18" style="width:18px;height:18px;display:block;fill:currentColor;flex-shrink:0" class="shareInstagram"><path fill-rule="evenodd" clip-rule="evenodd" d="M9 1.621c2.405 0 2.689.011 3.635.053.879.039 1.354.186 1.67.309.418.162.721.359 1.034.671.316.316.51.615.675 1.034.123.316.271.795.309 1.67.042.949.053 1.234.053 3.635s-.011 2.689-.053 3.635c-.039.879-.186 1.354-.309 1.67a2.802 2.802 0 01-.671 1.034c-.316.316-.615.51-1.034.675-.316.123-.795.271-1.67.309-.949.042-1.234.053-3.635.053s-2.689-.011-3.635-.053c-.879-.039-1.354-.186-1.67-.309a2.802 2.802 0 01-1.034-.671 2.815 2.815 0 01-.675-1.034c-.123-.316-.271-.795-.309-1.67-.042-.949-.053-1.234-.053-3.635s.011-2.689.053-3.635c.039-.879.186-1.354.309-1.67.162-.418.359-.721.671-1.034.316-.316.615-.51 1.034-.675.316-.123.795-.271 1.67-.309.946-.042 1.23-.053 3.635-.053zM9 0C6.557 0 6.251.011 5.291.053 4.335.095 3.677.25 3.108.471a4.389 4.389 0 00-1.596 1.041A4.404 4.404 0 00.471 3.105C.25 3.678.095 4.332.053 5.288.011 6.251 0 6.557 0 9c0 2.443.011 2.749.053 3.709.042.956.197 1.614.418 2.183a4.389 4.389 0 001.041 1.596 4.392 4.392 0 001.593 1.037c.573.221 1.227.376 2.183.418.96.042 1.266.053 3.709.053s2.749-.011 3.709-.053c.956-.042 1.614-.197 2.183-.418a4.413 4.413 0 001.593-1.037c.5-.499.809-1.002 1.037-1.593.221-.573.376-1.227.418-2.183.042-.96.053-1.266.053-3.709s-.011-2.749-.053-3.709c-.042-.956-.197-1.614-.418-2.183a4.21 4.21 0 00-1.03-1.6A4.392 4.392 0 0014.896.474c-.573-.221-1.227-.376-2.183-.418C11.75.01 11.444 0 9 0zm0 4.377A4.625 4.625 0 004.377 9 4.625 4.625 0 009 13.623 4.625 4.625 0 0013.623 9 4.625 4.625 0 009 4.377zm0 7.622A3 3 0 119 6 3 3 0 019 12zm4.806-6.726a1.079 1.079 0 100-2.158 1.079 1.079 0 000 2.158z"></path></svg>
+          <svg viewBox="0 0 18 18" style="width:18px;height:18px;display:block;fill:currentColor;flex-shrink:0" class="shareYouTube"><path d="M9 2.070c-8.845 0-9 0.787-9 6.93s0.155 6.93 9 6.93 9-0.787 9-6.93-0.155-6.93-9-6.93zM11.884 9.301l-4.041 1.886c-0.354 0.164-0.644-0.020-0.644-0.41v-3.553c0-0.39 0.29-0.574 0.644-0.41l4.041 1.886c0.354 0.166 0.354 0.436 0 0.601z"></path></svg>
+         </span>
+      </div>
+      <p class="text-gray-500 mb-2 font-semibold mt-5 ml-14 text-sm">&copy;2022 tour Labs, Inc.</p>
+    </section>
+    </body>
+</html>
